@@ -1,7 +1,7 @@
 """
 Utilities for built
 """
-from rfpyutils.utils.str.rf_utils_str import RFUtilsStr
+from rfpyutils.str import RFUtilsStr
 
 
 class RFUtilsBuilt:

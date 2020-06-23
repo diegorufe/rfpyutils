@@ -4,16 +4,6 @@
     <list default="true" id="9ccb24cd-26a8-4319-bb89-d794bf6b5903" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/array/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/array/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/array/rf_utils_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/array/rf_utils_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/built/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/built/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/built/rf_utils_built.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/built/rf_utils_built.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/log/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/log/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/log/logging.json" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/log/logging.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/log/rf_utils_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/log/rf_utils_logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/str/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/str/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/str/rf_utils_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/str/rf_utils_str.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
