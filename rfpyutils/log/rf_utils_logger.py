@@ -6,15 +6,45 @@ import os
 class RFUtilsLogger:
 
     @staticmethod
-    def init_log(json_config: str = os.path.dirname(os.path.abspath(__file__)) + '/logging.json'):
+    def init_log(json_config: str = None):
         """
         Method for init log
         :param json_config:
         :return:
         """
-        with open(json_config) as json_file:
-            data = json.load(json_file)
-        logging.config.dictConfig(data)
+        if json_config is None:
+            json_config = {
+                "version": 1,
+                "formatters": {
+                    "default": {
+                        "format": "[%(asctime)s] %(levelname)s in %(module)s: %(message)s"
+                    }
+                },
+                "handlers": {
+                    "console": {
+                        "class": "logging.StreamHandler",
+                        "stream": "ext://sys.stdout",
+                        "formatter": "default",
+                        "level": "DEBUG"
+                    }
+                },
+                "loggers": {
+                    "console": {
+                        "level": "DEBUG",
+                        "handlers": [
+                            "console"
+                        ],
+                        "propagate": "no"
+                    }
+                },
+                "root": {
+                    "level": "DEBUG",
+                    "handlers": [
+                        "console"
+                    ]
+                }
+            }
+        logging.config.dictConfig(json_config)
 
     @staticmethod
     def error(msg: str, *args, **kwargs):

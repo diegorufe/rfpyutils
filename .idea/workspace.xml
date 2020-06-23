@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9ccb24cd-26a8-4319-bb89-d794bf6b5903" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfpyutils/built/rf_utils_built.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/built/rf_utils_built.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rfpyutils/log/rf_utils_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/log/rf_utils_logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
