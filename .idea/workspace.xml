@@ -2,19 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ccb24cd-26a8-4319-bb89-d794bf6b5903" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/array/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/array/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/array/rf_utils_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/array/rf_utils_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/built/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/built/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/built/rf_utils_built.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/built/rf_utils_built.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/log/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/log/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/log/logging.json" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/log/logging.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/log/rf_utils_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/log/rf_utils_logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/str/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/str/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/str/rf_utils_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/utils/str/rf_utils_str.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dii621RDNHOaSHTepUbf5wAYcm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,8 +43,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\trabajo\repos\python\rfpyutils\rfpyutils" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\trabajo\repos\python\rfpyutils" />
       <recent name="E:\trabajo\repos\python\rfpyutils\utils" />
@@ -49,5 +72,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1592918856692" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1592928448356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1592928448356" />
   </component>
 </project>
