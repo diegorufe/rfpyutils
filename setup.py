@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name="rfpyutils",  # Replace with your own username
-    version="0.0.1-SNAPSHOT",
+    version="0.0.1",
     author="Diego Ruiz",
     author_email="diegorufe@gmail.com",
     description="Library utilities for python",
