@@ -22,3 +22,13 @@ class RFUtilsArray:
         :return: True if is None not instance (list, tuple) or len = 0
         """
         return RFUtilsArray.is_not_empty(array) is False
+
+    @staticmethod
+    def short(array):
+        """
+        MEthod for short array. This function check the array is not empty
+        :param array: to sort
+        :return: None
+        """
+        if RFUtilsArray.is_not_empty(array):
+            array.sort()

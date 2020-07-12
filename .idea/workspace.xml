@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9ccb24cd-26a8-4319-bb89-d794bf6b5903" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfpyutils/log/rf_utils_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/log/rf_utils_logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rfpyutils/array/rf_utils_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/array/rf_utils_array.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1592918856692" />
+    <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1594587386620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594587386620" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1592928448356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
