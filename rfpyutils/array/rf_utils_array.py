@@ -32,3 +32,19 @@ class RFUtilsArray:
         """
         if RFUtilsArray.is_not_empty(array):
             array.sort()
+
+    @staticmethod
+    def is_one_dimension_array(array):
+        """
+        Method to check one dimension array
+        :param array: to check
+        :return: True if one dimension array False if not
+        """
+        result = False
+        if RFUtilsArray.is_not_empty(array):
+            try:
+                result = len(array[0]) == 0
+            except:
+                result = True
+
+        return result
