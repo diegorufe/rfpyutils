@@ -43,7 +43,7 @@ class RFUtilsArray:
         result = False
         if RFUtilsArray.is_not_empty(array):
             try:
-                result = len(array[0]) == 0
+                result = type(array[0]) is str or len(array[0]) == 0
             except:
                 result = True
 

@@ -6,11 +6,13 @@ import math
 class RFUtilsStadistic:
 
     @staticmethod
-    def resolve_frequency_table_one_dimension_array(ar_values, calculate_with_intervals: bool = False):
+    def resolve_frequency_table_one_dimension_array(ar_values, calculate_with_intervals: bool = False,
+                                                    calculate_with_qualitative_variables: bool = False):
         """
         Method for resolve frequency table from one dimension array
         :param ar_values: to resolve frequency table
         :param calculate_with_intervals: if True calculate frequencies with intervals for values
+        :param calculate_with_qualitative_variables: if True calculate frequency with qualitative label variable
         :return: a object type RFFrequencyTable with resolve frequency table
         """
         result = RFFrequencyTable()
@@ -35,9 +37,40 @@ class RFUtilsStadistic:
             total_cumulative_absolute_frequencies = 0
             total_cumulative_relative_frequencies = 0
 
-            if calculate_with_intervals:
-                # map for intervals
-                map_intervals = {}
+            if calculate_with_qualitative_variables:
+                map_qualitative_variables = {}
+
+                for value in ar_values_copy:
+                    if value not in map_qualitative_variables:
+                        map_qualitative_variables[value] = 0
+                    map_qualitative_variables[value] = map_qualitative_variables[value] + 1
+
+                map_qualitative_variables = sorted(map_qualitative_variables.items(), key=lambda x: x[1])
+
+                index = 0
+                for key, value in map_qualitative_variables:
+
+                    ar_values_frequency_table.append(key)
+
+                    # absolute frequency
+                    ar_absolute_frequencies.append(value)
+
+                    # relative frequency
+                    ar_relative_frequencies.append(ar_absolute_frequencies[index] / num_records)
+
+                    # absolute cumulative frequency
+                    total_cumulative_absolute_frequencies = total_cumulative_absolute_frequencies + \
+                                                            ar_absolute_frequencies[index]
+                    ar_cumulative_absolute_frequencies.append(total_cumulative_absolute_frequencies)
+
+                    # relative cumulative frequency
+                    total_cumulative_relative_frequencies = total_cumulative_relative_frequencies + \
+                                                            ar_absolute_frequencies[index] / num_records
+                    ar_cumulative_relative_frequencies.append(total_cumulative_relative_frequencies)
+
+                    index = index + 1
+
+            elif calculate_with_intervals:
                 # path for intervals
                 result.path = ar_values_copy[-1] - ar_values_copy[0]
                 result.number_of_intervals = int(round(math.sqrt(len(ar_values_copy)), 0))
@@ -64,6 +97,7 @@ class RFUtilsStadistic:
                             break
 
                 for index, value_interval in enumerate(ar_values_frequency_table):
+
                     # relative frequency
                     ar_relative_frequencies.append(ar_absolute_frequencies[index] / num_records)
 
