@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9ccb24cd-26a8-4319-bb89-d794bf6b5903" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rfpyutils/array/rf_utils_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/array/rf_utils_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rfpyutils/stadistic/rf_frequency_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/stadistic/rf_frequency_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rfpyutils/stadistic/rf_utils_stadistic.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/stadistic/rf_utils_stadistic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rfpyutils/test/stadistic/test_frequency_table_one_dimension.py" beforeDir="false" afterPath="$PROJECT_DIR$/rfpyutils/test/stadistic/test_frequency_table_one_dimension.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +34,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rfpyutils/test/stadistic" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\trabajo\repos\python\rfpyutils" />
-      <recent name="E:\trabajo\repos\python\rfpyutils\utils" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\trabajo\repos\python\rfpyutils\rfpyutils" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\trabajo\repos\python\rfpyutils\rfpyutils\test\stadistic" />
+      <recent name="E:\trabajo\repos\python\rfpyutils" />
+      <recent name="E:\trabajo\repos\python\rfpyutils\utils" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="test_frequency_table" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_frequency_table_one_dimension_interval">
+    <configuration name="test_frequency_table_one_dimension (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rfpyutils" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +60,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rfpyutils/test/stadistic/test_frequency_table.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rfpyutils/test/stadistic/test_frequency_table_one_dimension.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_frequency_table_one_dimension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rfpyutils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rfpyutils/test/stadistic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\trabajo\repos\python\rfpyutils\rfpyutils\test\stadistic\test_frequency_table_one_dimension.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_frequency_table_one_dimension_interval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rfpyutils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rfpyutils/test/stadistic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rfpyutils/test/stadistic/test_frequency_table_one_dimension_interval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_frequency_table" />
+        <item itemvalue="Python.test_frequency_table_one_dimension_interval" />
+        <item itemvalue="Python.test_frequency_table_one_dimension (1)" />
+        <item itemvalue="Python.test_frequency_table_one_dimension" />
       </list>
     </recent_temporary>
   </component>
@@ -91,6 +137,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1592918856692" />
+    <state x="715" y="223" key="#xdebugger.evaluate" timestamp="1595958967912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="223" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595958967912" />
     <state x="614" y="114" key="CommitChangelistDialog2" timestamp="1594587386620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -99,38 +149,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="910" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594654049875" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1594655306842">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1595959553860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594655306842" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1594655306842">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595959553860" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1595959553859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594655306842" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1594655306841">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595959553859" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1595959553859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594655306841" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1594655306842">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595959553859" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1595959553859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594655306842" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1594655306842">
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595959553859" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1595959238510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594655306842" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1594655306842">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595959238510" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1595959238510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594655306842" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1594655306842">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595959238510" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1595959238510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594655306842" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1594655306842">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595959238510" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1595959238510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1594655306842" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595959238510" />
+    <state x="793" y="231" key="RollbackChangesDialog" timestamp="1595875793242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="793" y="231" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1536.824/-1920.0.1536.824@0.0.1920.1040" timestamp="1595875793242" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1592928448356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
